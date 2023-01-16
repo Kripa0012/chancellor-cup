@@ -4,7 +4,7 @@ Welcome to Chancellor cup
 
 It is hosted in
 
-## [cup.gpu.edu.np](https://cup.gpu.edu.np)
+## [cup.gpu.edu.np](https://gandaki-university.github.io/chancellor-cup/)
 
 
 Subscribe in Discord Channel
