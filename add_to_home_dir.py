@@ -5,8 +5,8 @@ import os
 import sys
 from pathlib import Path
 import re
-y = re.compile("href\s*=\s*\"..")
-ysrc = re.compile("src\s*=\s*\"..")
+y = re.compile("href\s*=\s*\"../")
+ysrc = re.compile("src\s*=\s*\"../")
 
 def main():
     os.chdir('html')
