@@ -246,11 +246,4 @@
         }
     }
 
-    #content .data {
-        margin-top: 27%;
-        width: 250px;
-        background: rgb(200, 183, 212);
-        position: relative;
-        animation: mymove 5s infinite;
-    }
 }
