@@ -1,0 +1,33 @@
+
+html{
+    
+    background-color: #f0f0f0;
+}
+
+.sub_head h1{
+    margin: 10px;
+    padding: 20px;
+}
+.sub_header{
+    
+}
+h4{
+    margin: 5px;
+    padding: 15px;
+}
+.schedule{
+    display: flex;
+}
+
+.sub_game{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    color: #000;
+    width:500px;
+    height: 100px;
+}
+.sub_game2{
+    margin-left: 205px;
+    margin-top: 20px;
+}
