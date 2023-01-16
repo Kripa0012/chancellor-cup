@@ -17,6 +17,8 @@ jobs:
           ls ${{ github.workspace }}
       - run: python3 add_to_home_dir.py
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: git config --global user.email "robot@anup.pro.np"
+      - run: git config --global user.name "GitHub Actions"
       - run: git add *
       - run: git commit -am 'code fix path on push'
       - run: git push
