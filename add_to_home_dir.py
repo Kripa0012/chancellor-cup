@@ -16,7 +16,7 @@ def main():
         file_wt = open(os.path.join('..', x), 'w+')
         line = file_read.read()
         fx = y.sub('href=\"', line)
-        fx = ysrc.sub('src=\"', line)
+        fx = ysrc.sub('src=\"', fx)
         file_wt.write(fx)
         file_wt.close()
         file_read.close()
