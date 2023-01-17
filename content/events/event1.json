@@ -12,5 +12,9 @@
     "venues":[
         {"title": "Pokhara Stadium", "address": "Rangasala, Rambazar, Pokhara", "google-plus-code":"7MW56X3R+QHW"}
     ],
-    "title":"Gandaki University Chancellor Cup - 2023"
+    "title":"Gandaki University Chancellor Cup - 2023",
+    "sponsors":[
+        {"name":"Sponsor 1", "category":"Gold","info":"content/sponsors/sponsor1.json"},
+        {"name":"Sponsor 2", "category":"Gold","info":"content/sponsors/sponsor2.json"}
+    ]
 }
