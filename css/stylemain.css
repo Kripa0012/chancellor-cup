@@ -1,6 +1,6 @@
 @media screen and (min-width:360px) and (max-width:640px) {
     body {
-        background-image: url(../content/bagr.jpg);
+        background-image: url("../content/logo.jpg");
         height: 100vh;
         background-position: auto;
         background-repeat: no-repeat;
@@ -22,7 +22,7 @@
         margin-top: -95px;}
 
         body {
-            background-image: url('../content/bagr.jpg');
+            background-image: url(bagr.jpg);
             /* background-color: #cccccc; */
             height: 600px;
             background-position: auto;
