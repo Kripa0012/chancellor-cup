@@ -22,7 +22,7 @@
         margin-top: -95px;}
 
         body {
-            background-image: url(bagr.jpg);
+            background-image: url("../content/bagr.jpg");
             /* background-color: #cccccc; */
             height: 600px;
             background-position: auto;

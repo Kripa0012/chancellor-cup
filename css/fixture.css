@@ -29,6 +29,7 @@
     font-size: 15px;
     text-align: center;
     margin-left: 170px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 @media screen and (max-width: 480px){
     *{
