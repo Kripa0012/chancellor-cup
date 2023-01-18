@@ -11,26 +11,78 @@
  h4{
     margin-left: 19px;
 }
+.fixture_sub{
+    margin: 2px;
+    padding-left: 20px;
+    
+}
 .fixture_sub1{
-    background-color: #ffffff;
-    width: 425px;
+    margin-left: 10px;
+    padding-left: 50px;
+    width: 50vh;
     height: 100px;
     line-height: 30px;
     border-radius: 7px;
-    margin-left: 10px;
-    padding-left: 10px;
+    background-color: #ffffff;
 }
 .fixture_sub1 span{
     font-size: 15px;
     text-align: center;
     margin-left: 170px;
 }
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 480px){
     *{
-        font-size: 15px;
+        font-size: 18px;
     }
     .fixture_head{
-        display: grid;
-        gap: 15px;
+        display: inline-block;
+        
+    }
+    .fixture_sub{
+        margin: 5px;
+        padding: 5px;
+    }
+    .fixture_sub1{
+        margin-top: 15px;
+        margin-right: 15px;
+        padding: 19px;
+        width: 35vh;
+        height: 100px;
+    }
+
+    
+}
+@media screen and (max-width: 786px){
+    *{
+        font-size: 30px;
+    }
+    .fixture_head{
+        display: inline-block;
+        
+    }
+    .fixture_sub{
+        margin: 5px;
+        padding: 5px;
+    }
+    .fixture_sub1{
+        margin-top: 15px;
+        margin-right: 15px;
+        padding: 19px;
+        width: 60vh;
+        height: 100px;
+    }
+    .fixture_sub1 span{
+        font-size: 22px;
+    }
+
+    
+}
+@media screen and (max-width: 1024px){
+    *{
+        font-size: 34px;
+    }
+    .fixture_sub1{
+        margin-left: 15px;
+        padding-left: 30px;
     }
 }
