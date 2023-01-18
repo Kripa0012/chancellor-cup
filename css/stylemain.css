@@ -1,11 +1,11 @@
 @media screen and (min-width:360px) and (max-width:640px) {
     body {
-        background-image: url("../content/logo.jpg");
-        height: 100vh;
+        background-image: url("../content/bagr.jpg");
+        height: auto;
         background-position: auto;
         background-repeat: no-repeat;
         background-size: 100% 500px;
-        position: static;
+        position: relative;
     }
 
     #chancellor img {
