@@ -13,6 +13,10 @@ def main():
     files = os.listdir('.')
     for x in files:
         file_read = open(x, 'r+')
+        if x =="home.html":
+            x = "index.html"
+        # elif x == "index.html":
+        #     continue
         file_wt = open(os.path.join('..', x), 'w+')
         line = file_read.read()
         fx = y.sub('href=\"', line)
